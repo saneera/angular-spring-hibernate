@@ -10,6 +10,8 @@ Quick Start
 
 Eclipse users 
 
-Clone 
+Project is now ready to be imported into Eclipse.
+File -> Import -> Git -> Projects from Git -> Next -> Clone URL
+
 https://github.com/saneera/angular-spring-hibernate.git
 
