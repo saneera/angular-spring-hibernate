@@ -1,0 +1,362 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	padding-bottom: 60px;
+	color: #000000;
+	
+}
+
+/* Custom container */
+.container {
+	margin: 0 auto;
+	max-width: 1000px;
+	height:auto;
+	min-height: 100%;
+}
+
+
+#header .div1 {
+	height: 56px;
+	padding: 0px 30px;
+	background: url('../img/header.png') repeat-x;
+	min-width: 900px;
+}
+#header .div2 {
+	color: #FFFFFF;
+	padding: 4px 0px 0px 0px;
+	float: left;
+}
+#header .div3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFF;
+	text-align: right;
+	padding: 15px 0px 0px 0px;
+	float: right;
+}
+#header .div2 span {
+	font-weight: bold;
+}
+
+
+
+#menu {
+    background: transparent url("../img/menu.png") repeat-x scroll 0% 0%;
+    position: relative;
+    z-index: 1;
+    height: 34px;
+    clear: both;
+    padding: 0px 30px;
+    min-width: 900px;
+}
+
+
+#menu > ul.left {
+	float: left;
+}
+#menu > ul.right {
+	float: right;
+}
+#menu > ul {
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+#menu > ul ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	background: url('../image/transparent.png');
+}
+#menu > ul a {
+	display: block;
+	text-decoration: none;
+}
+#menu > ul li {
+	float: left;
+	list-style: none;
+}
+#menu > ul > li + li {
+	background: url('../img/split.png') center left no-repeat;
+}
+#menu > ul .top {
+	padding: 10px 15px 9px 17px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	text-align: center;
+}
+#menu > ul li ul {
+	position: absolute;
+}
+#menu > ul ul li {
+	padding: 2px;
+	clear: both;
+}
+#menu > ul .selected .top {
+	background: url('../img/selected.png') repeat-x;
+	color: #FFFFFF;
+}
+#menu > ul .parent {
+	background-image: url('../img/arrow-right.png'); 
+	background-position: 95% center;
+	background-repeat:no-repeat;
+}
+#menu > ul li ul ul {
+	margin: -29px 0 0 161px;
+}
+#menu > ul li li a {
+	padding: 5px;
+	margin: 1px;
+	color: #FFFFFF;	
+	width: 147px;
+}
+#menu > ul li li > a:hover {
+	margin: 0px;
+	border: 1px solid #BD4C14;
+	background-color: #391706; 
+}
+
+
+.form input {	
+	outline: medium none;
+	display: block;
+	margin: 0px 0px 20px;
+	padding: 10px 15px;
+	border: 1px solid #D9D9D9;
+	border-radius: 3px;
+	color: #CCC;
+	font-family: Arial, Helvetica, sans-serif;
+	box-sizing: border-box;
+	font-size: 12px;
+	transition: all 0.3s linear 0s;
+}
+.btn-inverse {
+	background: #33B5E5 none repeat scroll 0% 0%;
+}
+
+.btn-inverse:HOVER{
+	background: #33B5E5 none repeat scroll 0% 0%;
+}
+
+.container>hr {
+	margin: 60px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+	margin: 80px 0;
+	text-align: center;
+}
+
+.jumbotron h1 {
+	font-size: 24px;
+	line-height: 1;
+}
+
+.jumbotron .lead {
+	font-size: 24px;
+	line-height: 1.25;
+}
+
+.jumbotron .btn {
+	font-size: 21px;
+	padding: 14px 24px;
+}
+
+/* Supporting marketing content */
+.marketing {
+	margin: 60px 0;
+}
+
+.marketing p+h4 {
+	margin-top: 28px;
+}
+
+/* Customize the navbar links to be fill the entire space of the .navbar */
+.navbar-wrapper {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 10;
+	margin-top: 20px;
+	margin-bottom: -90px;
+	/* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
+}
+
+.navbar-wrapper .navbar {
+	
+}
+
+/* Remove border and change up box shadow for more contrast */
+.navbar .navbar-inner {
+	border: 0;
+	-webkit-box-shadow: 0 2px 10px rgba(0, 0, 0, .25);
+	-moz-box-shadow: 0 2px 10px rgba(0, 0, 0, .25);
+	box-shadow: 0 2px 10px rgba(0, 0, 0, .25);
+}
+
+/* Downsize the brand/project name a bit */
+.navbar .brand {
+	padding: 14px 20px 16px;
+	/* Increase vertical padding to match navbar links */
+	font-size: 16px;
+	font-weight: bold;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, .5);
+}
+
+/* Navbar links: increase padding for taller navbar */
+.navbar .nav>li>a {
+	padding: 15px 20px;
+}
+
+/* Offset the responsive button for proper vertical alignment */
+.navbar .btn-navbar {
+	margin-top: 10px;
+}
+
+.navbar .nav li p {
+	display: inline;
+	color: #000000;
+	font-size: 15px;
+}
+
+#push, #footer {
+	height: 60px;
+}
+
+#footer {
+	background-color: #f5f5f5;
+}
+
+/* Lastly, apply responsive CSS fixes as necessary */
+@media ( max-width : 767px) {
+	#footer {
+		margin-left: -20px;
+		margin-right: -20px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+
+html, body {
+	height: 100%;
+	/* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	/* Negative indent footer by it's height */
+	margin: 0 auto -60px;
+}
+
+.none {
+	display: none !important;
+}
+
+.gray {
+	background-color: lightgray;
+}
+
+.centering {
+	width: 50%;
+	height: 50%;
+	overflow: auto;
+	margin: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+
+.loading {
+	background: url("../img/ajax-loader.gif");
+	width: 90px;
+	height: 90px;
+}
+
+#contactsHeaderButton {
+	margin-left: 7px;
+}
+
+#loadingModal {
+	width: 100px;
+	height: 100px;
+    background-color: none;
+	
+}
+
+#divLoadingIcon {
+	padding-top: 0px;
+}
+
+.messageToUser {
+	color: #ffffff;
+	text-shadow: none;
+}
+
+.tdContactsCentered {
+	vertical-align: middle;
+}
+
+.width15 {
+	width: 15%;
+}
+
+.insertAndUpdateDialogs {
+	width: 450px;
+	height: 300px;
+}
+
+.insertAndUpdateDialogsUser {
+	width: 600px;
+	height: 350px;
+}
+
+
+.displayInLine {
+	display: inline;
+}
+
+.dialogErrorMessage {
+	margin-left: 10px;
+}
+
+#deleteContactsModal {
+	width: 500px;
+	height: 220px;
+	overflow: hidden;
+}
+
+#searchContactsModal {
+	width: 500px;
+	height: 180px;
+	overflow: hidden;
+}
+
+.input-append {    
+    width: 100px;
+}
+
+.input-prepend {
+	 width: 220px;
+}
+
+.grid {
+  width: 500px;
+  height: 250px;
+}
+
+
+.updateDialogs {
+    height: 371px;
+    width: 595px;
+}
+ 
+
+

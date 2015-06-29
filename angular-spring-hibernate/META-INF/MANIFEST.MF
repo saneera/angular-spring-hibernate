@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: angular-spring-hibernate
+Bundle-SymbolicName: angular-spring-hibernate
+Bundle-Version: 1.0.0.qualifier
+Export-Package: com.angular.controller,
+ com.angular.dto,
+ com.angular.interceptor,
+ com.angular.model,
+ com.angular.pagination,
+ com.angular.repository,
+ com.angular.service,
+ com.angular.util.exception,
+ com.angular.vo
